@@ -126,7 +126,7 @@ function NovaEmpresa({ refetch }: { refetch: () => void }) {
                   />
                 ) : (
                   <img
-                    className="rounded-t-lg object-cover w-[100%] h-[100%]"
+                    className="rounded-t-lg w-[100%] h-[100%] p-8"
                     src={placeholder}
                     alt="Placeholder"
                   />

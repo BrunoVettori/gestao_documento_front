@@ -172,7 +172,7 @@ function Empresa() {
 
           <div className="h-[250px] w-[300px] rounded-lg overflow-clip border-[1px] border-system_gray_300">
             <img
-              className="rounded-t-lg object-cover w-[100%] h-[100%]"
+              className="rounded-t-lg w-[100%] h-[100%]"
               src={
                 import.meta.env.VITE_BASE_URL +
                 `${
